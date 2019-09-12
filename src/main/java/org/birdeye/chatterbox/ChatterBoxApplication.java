@@ -12,5 +12,6 @@ public class ChatterBoxApplication
         SpringApplication app = new SpringApplication(ChatterBoxApplication.class);
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
+//TestComment
     }
 }
