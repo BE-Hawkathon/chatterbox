@@ -1,4 +1,4 @@
-package org.birdeye.chatterbox;
+package com.birdeye.chatterbox;
 
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
@@ -12,6 +12,5 @@ public class ChatterBoxApplication
         SpringApplication app = new SpringApplication(ChatterBoxApplication.class);
         app.setBannerMode(Banner.Mode.OFF);
         app.run(args);
-//TestComment
     }
 }

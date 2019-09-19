@@ -1,9 +1,11 @@
-package org.birdeye.chatterbox.dialogue.flow;
+package com.birdeye.chatterbox.dialogflow.model.response;
 
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
+@Getter
+@Setter
 public class QueryResponse
 {
     private String fulfillmentText;

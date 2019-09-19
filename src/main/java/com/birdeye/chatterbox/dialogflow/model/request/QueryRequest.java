@@ -1,4 +1,4 @@
-package org.birdeye.chatterbox.dialogue.flow;
+package com.birdeye.chatterbox.dialogflow.model.request;
 
 import lombok.Getter;
 import lombok.Setter;
