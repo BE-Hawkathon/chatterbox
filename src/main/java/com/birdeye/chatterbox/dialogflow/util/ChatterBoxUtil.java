@@ -1,7 +1,7 @@
 package com.birdeye.chatterbox.dialogflow.util;
 
 import com.birdeye.chatterbox.dialogflow.keySpace.Session;
-import com.birdeye.chatterbox.dialogflow.model.response.QueryResponse;
+import com.birdeye.chatterbox.dialogflow.model.response.QueryResponseV3;
 
 public final class ChatterBoxUtil
 {
@@ -9,7 +9,7 @@ public final class ChatterBoxUtil
     {
     }
 
-    public static QueryResponse queryResultMapper()
+    public static QueryResponseV3 queryResultMapper()
     {
         return null;
     }
